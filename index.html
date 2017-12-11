@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Datos del cliente</title>
+  </head>
+  <body>
+    
+    <h1>Formulario de datos del cliente</h1>
+    
+    <form>
+      
+      <p>Tratamiento:
+        <select name="tratamiento">
+          <option value="sr" selected="selected">Sr.</option>
+          <option value="sra">Sra.</option>
+          <option value="dr">Dr.</option>
+          <option value="dra">Dra.</option>
+        </select>
+      </p>
+      
+      <p>Nombre: <input name="nombre" type="text"/></p>
+      
+      <p>Apellido 1: <input name="ap1" type="text"/></p>
+      
+      <p>Apellido 2: <input name="ap2" type="text"/></p>
+      
+      <p>Fecha de nacimiento: <input name="fnac" type="text"/></p>
+
+      <p>Correo electrónico: <input name="email" type="text"/></p>
+
+      <p>Sitio web: <input name="web" type="text"/></p>
+      
+      <p>DNI: <input name="dni" type="text"/></p>
+      
+      <p>Dirección: <input name="direccion" type="text"/></p>
+      
+      <p>Ciudad: <input name="ciudad" type="text"/></p>
+      
+      <p>Código postal: <input name="codpostal" type="text"/></p>
+      
+      <p>País: <input name="pais" type="text"/></p>
+      
+      <p>Teléfono: <input name="telefono" type="text"/></p>
+      
+      <p>
+        Información adicional:
+        <textarea name="info"></textarea>
+      </p> 
+      
+      <p>
+        ¿Es cliente?
+        Sí <input name="cliente" value="si" type="radio"/>
+	      No <input name="cliente" value="no" type="radio" checked="checked"/>
+      </p>
+      
+      <p>
+	      Recibir Newsletter <input name="preferencias" value="newsletter" type="checkbox" checked="checked"/>
+	      Recibir promociones <input name="preferencias" value="promociones" type="checkbox"/>
+      </p>
+      
+      <p>
+	      <input value="Enviar" type="submit"/>
+      </p>      
+      
+    </form>
+    
+  </body>
+</html>
