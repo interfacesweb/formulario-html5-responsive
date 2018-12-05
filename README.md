@@ -25,6 +25,5 @@
   - Las etiquetas deben mostrarse encima de los campos
   - El formulario debe ocupar un 80% de la pantalla y aparecer centrado
 - Diseño de pantallas grandes:
-  - El botón de envío debe aparecer *centrado* debajo de las dos columnas.
   - Las etiquetas deben aparecer alineadas a la izquierda y mostrarse a la izquierda de los campos
   - El formulario debe tener un ancho máximo de 1024px
